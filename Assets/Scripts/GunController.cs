@@ -14,6 +14,6 @@ public class GunController : MonoBehaviour
         horizontal = Input.GetAxis("Mouse X") * sensitivity;
         transform.Rotate(0, horizontal, 0);
         vertical = Input.GetAxis("Mouse Y") * sensitivity;
-        transform .Rotate(0, 0, vertical);
+        transform.Rotate(0, 0, vertical);
     }
 }
